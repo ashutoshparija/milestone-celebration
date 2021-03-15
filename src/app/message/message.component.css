@@ -1,0 +1,9 @@
+p {
+  white-space: pre-line;
+}
+
+/deep/ .card {
+  border-radius: 25px;
+  margin-bottom: 50px;
+  font-weight: normal;
+}

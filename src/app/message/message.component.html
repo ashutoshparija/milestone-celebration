@@ -1,0 +1,14 @@
+<div class="card">
+  <div *ngIf="imgPath" class="card-img">
+    <img [src]="imgPath" />
+  </div>
+  <div *ngIf="msg" class="card-block">
+    <p class="card-text">
+      {{msg}}
+    </p>
+  </div>
+  <div *ngIf="name" class="card-footer">
+    <p>~ {{name}}</p>
+  </div>
+</div>
+<p></p>

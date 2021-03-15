@@ -1,0 +1,23 @@
+.intro-image {
+  clip-path: circle(50% at 50% 50%);
+  height: 100%;
+  width: 100%;
+}
+
+#messages {
+  background-image: url("../assets/img/kudoboard_background.jpg");
+  background-repeat: repeat;
+  margin-top: 50px;
+}
+
+#typing-div {
+  width: 100%;
+}
+
+#congrats-message {
+  font-size: 32px;
+}
+
+#ms-logo-img {
+  height: 100%;
+}

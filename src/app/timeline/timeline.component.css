@@ -1,0 +1,15 @@
+ul {
+  margin-top: 50px;
+}
+
+:host .clr-timeline-step-description {
+  font-weight: normal;
+  font-size: 12px;
+}
+
+:host clr-icon {
+  width: 20px;
+  height: 20px;
+  min-width: auto;
+  min-height: auto;
+}
