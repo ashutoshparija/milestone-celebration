@@ -31,8 +31,14 @@
       </h1>
     </div>
     <div class="clr-row clr-justify-content-center">
-      <img src="https://media.giphy.com/media/cegWQ66TiGYDK/giphy.gif"/>
+      <!-- <img src="https://media.giphy.com/media/cegWQ66TiGYDK/giphy.gif"/> -->
     </div>
+    <carousel
+      [images]="images"
+      [objectFit]="'cover'"
+      [autoplay]="true"
+      [loop]="true">
+    </carousel>
     <div #messages id="messages" class="clr-row wow bounceInUp" data-wow-duration="1.5s">
       <br>
       <br>

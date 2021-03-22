@@ -10,6 +10,7 @@ import { MessageComponent } from './message/message.component';
 import {NgxTypedJsModule} from 'ngx-typed-js';
 import { TimelineComponent } from './timeline/timeline.component';
 import { NgwWowModule } from 'ngx-wow';
+import {IvyCarouselModule} from 'angular-responsive-carousel';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { NgwWowModule } from 'ngx-wow';
     ClarityModule,
     NgxTypedJsModule,
     NgwWowModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule, 
+    IvyCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
