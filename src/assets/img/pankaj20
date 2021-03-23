@@ -1,0 +1,9 @@
+import os
+
+i = 0
+
+for dir, subdirs, files in os.walk("."):
+    for f in files:
+        i += 1
+        f_new = "pankaj" + str(i)
+        os.rename(f, f_new)
