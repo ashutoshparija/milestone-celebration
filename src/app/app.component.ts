@@ -29,6 +29,7 @@ export class AppComponent {
     {path: 'assets/img/pankaj18.jpeg'},
     {path: 'assets/img/pankaj19.jpeg'},
     {path: 'assets/img/pankaj20.jpeg'},
+    {path: 'assets/img/pankaj21.jpeg'},
   ];
 
   title = 'achin-work';
