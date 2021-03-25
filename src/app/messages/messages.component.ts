@@ -9,11 +9,11 @@ export class MessagesComponent implements OnInit {
 
   messages = [
     {
-      name: 'Ananta Gupta',
+      name: 'Nikunj',
       imgpath: 'https://media2.giphy.com/media/26DNdGM8UnWo6mSLm/giphy-downsized.gif?cid=003403176ermn3xzdiyfh23nrh6f1ghbo72af9o6y8klbb55&rid=giphy-downsized.gif',
-      msg: 'Congratulations on achieving this great milestone. It\'s really amazing to work with you, and you surprise everyone around you with the amount of energy and liveliness you bring in the room. Your inclination towards technical stuff is just unbelievable. I always admire the way you put forward your views with clarity, and with inclusion for other\'s opinions. There is a lot I learn from you each day, and looking forward to work and learn more from you. \n' +
-        '\n' +
-        'Wishing you many more years to come!!!'
+      msg: 'Hi Pankaj,' +
+'Congratulations on Completing 15 years at Microsoft. It has been a privilege to work with you and having a role model to look upto in my career. Always amazed by how you approach complex problems and generate so much clarity.' +
+' Thank you for making work so much fun :)'
     },
     {
       name: 'Anurag Gautam',
