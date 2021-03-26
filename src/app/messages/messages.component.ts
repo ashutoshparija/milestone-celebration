@@ -9,284 +9,284 @@ export class MessagesComponent implements OnInit {
 
   messages = [
     {
-      name: 'Nikunj',
-      imgpath: 'https://media2.giphy.com/media/26DNdGM8UnWo6mSLm/giphy-downsized.gif?cid=003403176ermn3xzdiyfh23nrh6f1ghbo72af9o6y8klbb55&rid=giphy-downsized.gif',
-      msg: 'Hi Pankaj,' +
-'Congratulations on Completing 15 years at Microsoft. It has been a privilege to work with you and having a role model to look upto in my career. Always amazed by how you approach complex problems and generate so much clarity.' +
-' Thank you for making work so much fun :)'
-    },
-    {
-      name: 'Anurag Gautam',
-      imgpath: '',
-      msg: 'Congratulations Achindra on this big occasion. Wishing you many years of success and innovations. Your dedication and hard work are an inspiration to us all.\n' +
-        '\n' +
-        'Happy 10th Anniversary!'
-    },
-    {
-      name: 'Kishore',
-      imgpath: '',
-      msg: 'Hi Achindra, the energy and passion you bring towards technology is inspiring. You are always full of thoughts to try new things and learn from it and with a smile - a true embodiment of Growth Mindset. It is always very refreshing to talk to you. I have thoroughly enjoyed the journey with you and learnt a lot personally from you. Thanks for being a great friend. Congratulations on completing 10 Years at Microsoft! Grateful for all the contributions you have made for the success of the company and looking forward for many more years. All the best!.'
-    },
-    {
-      name: 'Vaibhav Gupta',
-      imgpath: '',
-      msg: '"It\'s been truly amazing working with Achin during support days and running some successfull projects like ""UDE ka Chashma"", To playing cricket together and now building a strong field and Engg connect." All the very best for the next decade full of awesome learnings and experiences.\n' +
-        '\n'
-    },
-    {
       name: 'Nikunj Mittal',
-      imgpath: 'https://media0.giphy.com/media/LYDNZAzOqrez6/giphy.gif?cid=003403175x5hsuoiu3dqpjy62f0nrh96hcsknto8zh8b9dbi&rid=giphy.gif',
-      msg: 'Hi Achindra! I still remember the day you joined all new hires for lunch and we talked about all our college projects and experiences. I love the energy you bring with the in depth technical expertise. Your passion for design discussions inspired me when you carried the Learning sessions for new hires and explained at length the intricacies of Defender architecture. \n' +
-        '\n' +
-        'Congratulations Achindra on completing 10 years! 😍'
+      imgpath: 'https://media4.giphy.com/media/KfHLHSCugJr4EFGeKx/giphy.gif?cid=003403174sdps6h81i75oja86qthq9xzbckagdzyh49of9ii&rid=giphy.gif',
+      msg: 'Hi Pankaj,\n' +
+      '\n' +
+'Congratulations on Completing 15 years at Microsoft. It has been a privilege to work with you and having a role model to look upto in my career. Always amazed by how you approach complex problems and generate so much clarity.' +
+'\n' +
+' \nThank you for making work so much fun :)'
     },
     {
-      name: 'Pankaj Madhurkar',
+      name: 'Kishore Ch',
       imgpath: '',
-      msg: 'Your passion and dedication to always do the right thing makes you what you are, a shining star :).'
-    },
-    {
-      name: 'Harshvardhan P',
-      imgpath: '',
-      msg: 'I had the opportunity to talk with Achindra couple of times. I felt he is very humble. I observed one quality in Achindra which i am really impressed by, he explains things very clear and in simple terms. \n' +
+      msg: 'Hi Panakaj,\n' +
         '\n' +
-        'Congratulations Achindra on your 10th work anniversary @Microsoft.'
+        'Congratulations on completing 15 years at Microsoft! Thanks for all the hard work and contributions to the success of Microsoft. It is always amazing to see the passion and energy you bring to solve problems. Thanks for giving me the opportunity to be a part of this journey. I have learnt a lot from you and thanks for all that you do.'
+        + '\n \n' +
+        'Regards, \n Kishore.'
     },
     {
       name: 'Srinivas K',
       imgpath: '',
-      msg: 'There is never a dull moment when you are around. You can talk to achin about varied things under the sun, the best biriyanis in town, Whether to rent or buy a house, cricket and almost everything. Oh how I miss our walks post lunch.\n' +
-        '\n' +
-        'It has been nothing short of wonderful getting to know you and working with you.Hoping to have more wonderful experiences.\n' +
-        '\n'
-    },
-    {
-      name: 'Mukul Verma',
-      imgpath: 'https://media3.giphy.com/media/qnOBmH70CGSVa/giphy.gif?cid=00340317kr3vc3houn030q90d9o441ae8b3d4cizkynbl19x&rid=giphy.gif',
-      msg: 'Congratulations on completing this journey Achindra. You have been one of my first teammates in Microsoft when I joined, and it\'s been a pleasure working with you since then. Always cheerful and optimistic, you bring liveliness to all our team. Keep inspiring for many more years to come! \n' +
-        '\n' +
-        'Party  🥳 is due when we all are back together. \n' +
-        '\n'
-    },
-    {
-      name: 'Jeevan Bhist',
-      imgpath: '../assets/img/JeevanBhistMsg.jpeg',
-      msg: ''
-    },
-    {
-      name: 'Mayur Kale',
-      imgpath: '',
-      msg: 'Congratulations Achindra on completing 10 years in Microsoft and all the best for your future.\n' +
-        '\n' +
-        'I am enjoying working with you. I always find you as my mentor or friend than my manager. I like your PJs :P. I would like to meet you and work with you in person in our office. '
-    },
-    {
-      name: 'Gaurav Solanki',
-      imgpath: '',
-      msg: 'Congratulations Achindra!\n' +
-        '\n' +
-        'It has been wonderful to know you. You bring a lot of positive energy to the team. I have learnt a lot from our discussions (how buyer has an upper hand, why idol worship, interesting weekend projects...). I look forward to continue the same when we all get back to office.\n' +
-        '\n' +
-        'Happy 10th!!! \n' +
-        '\n'
-    },
-    {
-      name: 'Anurag Agarwal',
-      imgpath: '',
-      msg: 'Achindra, in short time I really liked working with you, you are just an awesome person.'
-    },
-    {
-      name: 'Rajat Gupta',
-      imgpath: '',
-      msg: 'Hi Achindra! I was an intern in Microsoft during Summer 2020. It was entirely virtual, and so I couldn\'t ever get a chance to meet you in person. But I wish to tell you that even without a direct interaction you have had a profound impact on me, solely through the quality and perfection in your work. I was handling a piece of code that you must have written a few years back, and I just want to say that I am very well sure that you are one person from whom everyone can a learn a lot. Congratulations on your impactful 10 years. Wishing you lots of success, and many more years at Microsoft (because I\'ll be there too). Hoping to meet you soon..\n' +
-        '\n'
-    },
-    {
-      name: 'Nandan Kumar',
-      imgpath: '../assets/img/NandanKumarMsg.jpeg',
-      msg: 'Congratulations Achin on reaching this big milestone. This really calls out for a toast!! I have always known you as a superstar dev, an idea powerhouse, and a bestie. Wish you many more success...and to the next decade!!\n' +
-        '\n'
-    },
-    {
-      name: 'Vinay Hirwakar',
-      imgpath: 'https://media3.giphy.com/media/ZrlYxeVZ0zqkU/giphy.gif?cid=003403177v1eizcnk6zmlls0a900arwsq7b1qs55gns5rzzm&rid=giphy.gif',
-      msg: 'Congrats Achindra on the 10 year mark at Microsoft. Achindra is really passionate about technology. He keeps the environment light and has open mind towards many things. He\'s really enthusiastic, energetic and thinks about things holistically. I find him as a great mentor and as a great friend. I have personally learnt a lot from you. You can talk to him about biryani, voyager 1, cricket and pretty much about anything else. Missing the post lunch walks :) '
-    },
-    {
-      name: 'Mohit Malhotra',
-      imgpath: '',
-      msg: 'Hi Achindra, Congratulations on this wonderful milestone!\n' +
-        '\n' +
-        'Each day I learn something new from you. Your humble and open approach allows people to speak up their mind. You have been an amazing mentor both technically and personally. You bring so much positive energy with you which lights up the atmosphere.\n' +
-        '\n' +
-        'This is an amazing milestone and I wish that you achieve many more such milestones!'
-    },
-    {
-      name: 'Ashutosh Parija',
-      imgpath: 'https://media4.giphy.com/media/fxsqOYnIMEefC/giphy.gif?cid=00340317dqgxm0gc6ooayrnmfunb5bdr47f7r72q109f2uuk&rid=giphy.gif',
-      msg: 'Congratulations on 10 years of awesomeness Achindra. I still remember the first reply I got on my intro mail was by you due to our common interest of cricket and electronics. There after you have just surprised us by your great mentorship qualities. The first day you came back from US, you invited all of the fresh joinees to lunch where we had a very interesting talk, basically we just discussed how many great projects you had done in past 😛. Then after you initiated the learning sessions for us which was a very present surprise. You are a great mentor and very approachable personality.\n' +
-        '\n' +
-        'Wish you many more awesome years 😄.'
-    },
-    {
-      name: 'Nilesh Awate',
-      imgpath: '../assets/img/NileshAwateMsg.jpeg',
-      msg: 'Congratulations Achin!\n' +
-        '\n' +
-        'I know you for more than half a decade but still, I think there\'s a lot to know more about you.\n' +
-        '\n' +
-        'One of the best qualities of you is that whatever you do you do it differently. You apply all new concepts/thoughts/ideas and energy in every small thing beat whether writing a small email or a creating big presentation.\n' +
-        '\n' +
-        'All brainstorming sessions with you were amazing there\'s a lot to learn from you. Hoping to continue work with you.\n' +
-        '\n' +
-        'All the best for the  next 10yrs milestone 😇'
-    },
-    {
-      name: 'Mukul Verma',
-      imgpath: '../assets/img/MukulVermaMsg.jpeg',
-      msg: ''
-    },
-    {
-      name: 'Rahul Burman',
-      imgpath: '',
-      msg: 'Congratulations Achindra on completing 10 years in Microsoft. I have worked closely with you since joining the company and I learnt a lot from you. You are a great mentor, buddy and I feel fortunate to have people like you in the team. You respect the difference in opinion which makes situation light even in a heated discussion. Your tech savviness is an inspiration. Energy, innovative ideas, passionate, humble, leader are only some of the words which describe you.\n' +
-        '\n' +
-        'I wish you all the best for more successful career.  Reach greater heights and remain the person you are.  🙂'
-    },
-    {
-      name: 'Ishita Pandey',
-      imgpath: '',
-      msg: 'Many congratulations Achindra on completing remarkable 10 years with Microsoft! 🥳 🥳\n' +
-        'Here\'s to wishing many more exciting years ahead 😄'
-    },
-    {
-      name: 'Sourav Sain',
-      imgpath: '',
-      msg: 'Hi Achin.\n' +
-        '\n' +
-        'You are a good friend. You are always available to discuss on anything under the sun. And talking to you is delighting as you always keep a humor touch in it. You are always available with a smiling face.\n' +
-        '\n' +
-        '10 years is a milestone. I wish you many more years in Microsoft doing what you love to do and enjoying your journey as well.\n' +
-        '\n' +
-        'Wish you all the best.\n' +
-        '\n' +
-        'Take Care.'
-    },
-    {
-      name: 'Harish K V',
-      imgpath: '',
-      msg: 'Congratulations Achindra for this incredible milestone.\n' +
-        '\n' +
-        '\n' +
-        '\n' +
-        'Every time I interact with you, I was amazed at the clarity with which you convey your ideas. I have learnt a lot from our interactions and I am really glad to be a part of your team.\n' +
-        '\n' +
-        '\n' +
-        '\n' +
-        'All the best for your future success  😀'
-    },
-    {
-      name: 'Prafulla Sharma',
-      imgpath: 'https://media4.giphy.com/media/MdYkjCcov4CrNs0oaJ/giphy.gif?cid=0034031792wbkdzao1tl7c2kzbhck8ijh4m7swoiubx5jdal&rid=giphy.gif',
-      msg: 'Congratulations Achindra for amazing 10 years @Microsoft ! Wishing you many more great years at Microsoft. Enjoy your time !'
-    },
-    {
-      name: 'Srikanth Mandalapu',
-      imgpath: '',
-      msg: 'Congratulations Achindra on your 10 years association with Microsoft...!!!\n' +
-        '\n' +
-        'Its really awesome milestone and demonstrates how you enjoy working here...!!!\n' +
-        '\n' +
-        'Wish you a great success ahead...!!!'
-    },
-    {
-      name: 'Pranav Raj',
-      imgpath: 'https://media2.giphy.com/media/g9582DNuQppxC/giphy-downsized.gif?cid=00340317j6ix4i1d3kts80w1xs9y8tdom5nwmtwim7g55952&rid=giphy-downsized.gif',
-      msg: 'Congratulations on achieving this great milestone. \n' +
-        '\n' +
-        'I hope to celebrate many such milestones for you in future.  \n' +
-        '\n' +
-        'Wishing you many more years to come!!!'
-    },
-    {
-      name: 'Shiv S',
-      imgpath: '',
-      msg: 'Great milestone Achin! Wishing you more successful years!! Thanks for being a thoughtful and helpful colleague. '
-    },
-    {
-      name: 'Ankit Raj Garg',
-      imgpath: 'https://media0.giphy.com/media/qo89zWPnfaOK4Ng74U/giphy.gif?cid=00340317znj77riemlv6245v5cc5wi0ivoen7ebpi7lyp3d2&rid=giphy.gif',
-      msg: 'Heartiest congratulations on achieving this milestone. :)\n' +
-        '\n' +
-        'I hope to celebrate many such milestones for you in future. Awesome thing about you is always smiling and have a "Take it Light" attitude. :)\n' +
-        '\n' +
-        'Love it !!!'
-    },
-    {
-      name: 'Logesh Gopal',
-      imgpath: '',
-      msg: 'Congratulations Achindra \n' +
-        '\n' +
-        'It is a great milestone.\n' +
-        '\n' +
-        'Looking forward to work with you :) \n' +
-        '\n'
-    },
-    {
-      name: 'Sukumar Mokkarla',
-      imgpath: '',
-      msg: 'Congratulations on this great milestone Achindra. You have been a great manager and more importantly an excellent individual to work with. I always cherish our small yet excellent talks. I have been a great admirer of the way you always approach a problem. I wish you all the best for the great future ahead.\n' +
-        '\n' +
-        ' Hearty congratulations once again Achindra :) \n'
-    },
-    {
-      name: 'Rahul Tibdewal',
-      imgpath: '',
-      msg: 'Hi Achindra, \n' +
-        '\n' +
-        'You are full of energy and the passion put in any work you pick up is inspirational. You keep bringing new ideas and thoughts to table. You always have been a great mentor, go to person for any type of problems be it personal or technical.  It is really fun to talk to you, sometimes even hours pass by :D.\n' +
-        '\n' +
-        'Thank you for being a friend in need and all Chai time talks. \n' +
-        '\n' +
-        'Congratulations on completing 10 Years at Microsoft! '
-    },
-    {
-      name: 'Zehavit Mayer',
-      imgpath: 'https://media0.giphy.com/media/BQAk13taTaKYw/giphy.gif?cid=003403172q6di1n7lyb1dl68wb47wb6slq81nn19eptqlfif&rid=giphy.gif',
-      msg: 'Dear Achindra,\n' +
-        '\n' +
-        '10 years is a significant career milestone:) \n' +
-        '\n' +
-        'Thanks for the collaboration between the teams,\n' +
-        '\n' +
-        'the energy and the professional to achieve the goals together.\n' +
-        '\n' +
-        'Pleasure working with, for the cooperation, the efforts, the friendship and the spirit.\n' +
-        '\n' +
-        'Many thanks for your contributions to the formation and growth of the v-team.'
-    },
-    {
-      name: 'Veerendra Gupta',
-      imgpath: '',
-      msg: 'Congratulations Achin!\n' +
-        '\n' +
-        'I remember you were the first person in our org apart from the team who introduced himself and came forward to interact at the time of my joining. Working with you has been a great journey so far.  I have always found you a jolly person who is always up with some fresh and old punchlines 😛. Your positive attitude in every situation makes the work environment healthy. You know how to dig the hidden potential among others. Its always easy to bring out discussions with you without hesitation, what so ever be the topic. Your suggestions always help us to find concrete solution. At last, I wish you more success ahead. \n' +
-        '\n'
+      msg: 'Hi Pankaj,\n' +
+      '\n' +
+      'It is amazing to see the energy that you bring to the table and the passion you have for solving technical problems.\n' +
+      'At the same time, your humility stands out and the way you are open to others point of view is amazing.\n' +
+      'In short it has been wonderful getting to know you and will relish the chance to work closely with you down the line.\n' +
+      '\n' +
+      'Srinivas'
     },
     {
       name: 'Deepti Bhardwaj',
       imgpath: '',
-      msg: 'Congratulations on hitting this big milestone, Achindra! Many more to come in the future; cheers!'
+      msg: 'Congratulations Pankaj! It\'s been a pleasure observing your work ethic and learning from you since the start of my career. You\'re always ready to share what you know, provide hands on help and bring perspective and positivity to the table.' +
+        '\n \n' + 
+        'Wish you many more wonderful and rewarding years ahead!'
     },
     {
-      name: 'Dima Sirotnikov',
-      imgpath: 'https://media0.giphy.com/media/5XNO47nnjNpaE/giphy-downsized.gif?cid=00340317ile7l9vhqtcouugecme264z75wazf4ovt0j42mgl&rid=giphy-downsized.gif',
-      msg: 'Happy 10th Anniversary at Microsoft!\n' +
-        'Working with you is a real pleasure, and I really appreciate your contribution and your voice on the things we\'ve worked together. You\'re also a good person, and a good friend, which makes team work with you an extra pleasure.\n' +
-        'Keep on rocking, and hitting all the milestones you set for yourself!\n' +
+      name: 'Jaya Srivastava',
+      imgpath: '',
+      msg: 'Hi Pankaj,' +
+        '\n \n' +
+        'Working with you has been one of the best parts of my journey with Microsoft.. You have so many great qualities to learn from and emulate. Thank you for being the best colleague and guide one could ask to partner with.' +
         '\n' +
-        'Your friend, Dima\n' +
+        'I am sure the past 15 years would have their share of fun, challenges and achievements. And I wish you many more adventures and successes in the upcoming years.'
+    },
+    {
+      name: 'Sourav Sain',
+      imgpath: 'https://media3.giphy.com/media/11uArCoB4fkRcQ/giphy.gif?cid=003403177rqpokt3c9gym11tdcde0hx2dwfzxxi3djtrg2c1&rid=giphy.gif',
+      msg: 'Hi Pankaj' +
+        '\n \n' +
+        'Congratulations on completing 15 years in Microsoft. You have been an inspiration and constant source to learn from for me. In these years , opportunities to work together with you have been pleasure.\n' +
+        'You always look for perfection in the undertakings and that too in a smooth way. Your energy and passion in work is unmatched!!\n' +
+        'I have enjoyed working with you, have learnt something new from you, every time we talk.\n' +
+        'All the best for coming years in Microsoft.\n' +
+        'Regards,\n' +
+        'Sourav'
+    },
+    {
+      name: 'Meghna Vasudeva',
+      imgpath: 'https://media2.giphy.com/media/lTWf1EXbQmz0AIRHuY/giphy.gif?cid=00340317q89yb1p0zjgg0yleayzp889r135nz05jqg66axgv&rid=giphy.gif',
+      msg: 'Congratulations Pankaj on achieving this milestone! \n \n' +
+        'Thank you so much for being an amazing mentor. I really admire your technical skillset, sincerity and how you always manage to break down a complex problem into smaller simpler bits which makes any and every problem solvable! I feel so grateful to have worked with you and have been rewarded with such an enriching experience! \n' +
+        'Wish you many more amazing years ahead! Happy fifteen, once again!  😄 🥳'
+    },
+    {
+      name: 'Prabhat Garg',
+      imgpath: 'https://media2.giphy.com/media/UuNWQzayurnpC3KqQE/giphy.gif?cid=00340317e962uhqdsyotoongck00abcje7x43bemdl2rrma4&rid=giphy.gif',
+      msg: 'Hey Pankaj: Congratulations on celebrating 15 years at Microsoft. Here\'s wishing you many more! Looking forward to collaborating with you in future.' +
+        '\n \n' +
+        'Prabhat'
+    },
+    {
+      name: 'Achindra Bhatnagar',
+      imgpath: '',
+      msg: 'Please help me with the math, at what age did you start with Microsoft  😊' +
+        '\n\n' +
+        'Congratulations on 15!' +
+        '\n\n' +
+        'I must share, not just the people inside Microsoft but people who you interviewed are also your fan! I have heard this from a number of people. You are just Amazing! \n' +
+        'I have enjoyed working with you, have learned so much from you and every time we speak, there is something to be amazed of and something to learn. \n' +
+        'Keep rocking!'
+    },
+    {
+      name: 'Shiv S',
+      imgpath: '',
+      msg: 'Hi Pankaj,\n\n' +
+      'Many congratulations for completing 15 years @ MSFT! Pawri? \n' +
+      'Its been a very short time since I have known you but during this period you have been a supportive friend and colleague. \n\n' +
+      'Wishing you many more such years to come. \n\n' +
+      '-Shiv'
+    },
+    {
+      name: 'Nakul Goud',
+      imgpath: '',
+      msg: 'Congratulations Pankaj' +
+        '\n\n' +
+        'You are a great mentor, great leader who leads by example. Yet you are grounded which makes any one admire you. Its fun working with you. Wish you much more success in journey ahead!\n' +
+        '\n-Nakul'
+    },
+    {
+      name: 'Nishi Doshi',
+      imgpath: 'https://media2.giphy.com/media/qo89zWPnfaOK4Ng74U/giphy.gif?cid=00340317vpa7pbtfeyi42arx790xh40wgmvdbtbddm3vb5kz&rid=giphy.gif',
+      msg: 'Hi Pankj,\n' +
+        '\n' +
+        'Congratulations on completing 15 years at Microsoft! 🎉 🎊 Thank you so much for helping and encouraging me in organizing the fun events. I really admire the enthusiasm you bring to the table. \n Looking forward to organize more of them and learn from you.' +
+        '\n' +
+        'Wish you many more such amazing years! 🥳 🥳' +
         '\n'
+    },
+    {
+      name: 'Arun Ramamurthi',
+      imgpath: 'https://media1.giphy.com/media/KbB7Ta1NP09UnBKp5u/giphy-downsized.gif?cid=00340317xkoujpg5lslzpwv45ffo2372qz2sqvmtq8yhjy2k&rid=giphy-downsized.gif',
+      msg: 'Pankaj, we worked together for 5 years and have been close friends for 10+ years now. You have been one of my top go-to people in times of doubt, crisis, mentorship needs, personal or work advice. I can only say that it has been an absolute pleasure to know you, as a human being first and foremost for your simplicity and humility; and then as a colleague and a leader to create clarity out of ambiguous situations, taking courageous decisions and standing up for what you believe is right, and all-round one of the best individual contributors I ever worked with!\n' +
+      + '\n\n' +
+      'Heartiest congratulations on yet another milestone in your journey in Microsoft of completing 15 years! I am sure you will double it, and won\'t even realize when that happens.\n' +
+      'Take a bow; pause and rejoice in the moment!'
+    },
+    {
+      name: 'Ashutosh Parija',
+      imgpath: 'https://media1.giphy.com/media/qIXVd1RoKGqlO/giphy.gif?cid=00340317a55q3ph03fztuls1khbcyrehoo2q21ojfozjrbiq&rid=giphy.gif',
+      msg: 'Hi Pankaj,\n' +
+      '\n' +
+      'Congratulations on your 15 year anniversary with Microsoft. I have been very fortunate to get the opportunity to work with you almost from the beginning of my career. You are such a great manager, mentor, and friend. Your passion and energy are very inspirational. I love the way you bring clarity in all the team discussions and provide great technical expertise whenever we need it while respecting everyone\'s opinions at the same time. I love your positive attitude towards everything. Each day I get to learn something new from you. I am looking forward to learning a lot more from you in the years to come.\n' +
+      '\n' +
+      'Wish you many more awesome years!!'
+    },
+    {
+      name: 'Ankush JAin',
+      imgpath: 'https://media0.giphy.com/media/fxsqOYnIMEefC/giphy.gif?cid=003403177rqpokt3c9gym11tdcde0hx2dwfzxxi3djtrg2c1&rid=giphy.gif',
+      msg: 'Congratulations Pankaj on your 15th work anniversary at Microsoft !' +
+        '\n\n' +
+        'You have been a role model and definitely a go-to person whenever there is a need. The passion you posses to solve technical problems is well complemented with your down to earth attitude - which, as well makes you one of the finest mentors, seasoned leader and above all a very dependable team member.\n' +
+        'Keep inspiring and rocking !!\n\n' +
+        'Cheers,\n' +
+        'Ankush'
+    },
+    {
+      name: 'Nishi Katiyar',
+      imgpath: 'https://s3.amazonaws.com/kb-tenant-data/63408d57-8dff-4e21-a78d-bc9dc2b69d5f/uploads/images/aIQiLCGXy3paRF5J/medium/xqa7ugfa.jpg',
+      msg: 'Congratulations Pankaj! It has been my utmost pleasure to have worked beside you. You have been a teacher, a mentor and someone I aspire to become, both professionally and as a human being. Your honesty, simplicity and humility are inspiring. Knowing that I can reach out to you for any doubts, guidance or life advice has been a very reassuring part of my journey in Microsoft.\n' +
+      'Thank you for being so generous with your time and energy and always motivating me 😌\n' +
+      'PS: Adding the picture as a fun reminder of your old team 😁'
+    },
+    {
+      name: 'Anumod Thomas',
+      imgpath: 'https://media0.giphy.com/media/7zMkk1aiQVonuZQKi6/giphy-downsized.gif?cid=00340317dd25dk38c8fknqpqml3uuo78aik0pppx7bcrrn4e&rid=giphy-downsized.gif',
+      msg: 'Dear Pankaj\n' +
+        '\n' +
+        'Congratulations on your 15 year milestone at Microsoft. The success factors you brought on to Microsoft are truly commendable. I am lucky to know you in person too. Wishing you many more successful milestones to come at Microsoft for you .. Enjoy your anniversary.' +
+        '\n' +
+        'Regards,\n' +
+        'Anumod'
+    },
+    {
+      name: 'Mansi Vijh',
+      imgpath: 'https://media1.giphy.com/media/VkoJ9yd1VOePal8KyY/giphy.gif?cid=00340317sidahskdgqdemj63zxh1gaprz4er7ezubkolu7n7&rid=giphy.gif',
+      msg: 'Hi Pankaj,\n' +
+        '\n' +
+        'A big congratulations on completing 15 years at Microsoft!\n' + 
+        'In the entire time I\'ve known you, you\'ve constantly demonstrated the qualities an ideal leader should embody and always led by example. Be it the way you consistently seek to improve yourself, or learn from every experience and challenge you encounter, or how you continuously inspire those around you to strive to achieve more by pushing the boundaries, there is something I\'ve learnt in every interaction with you. The support and encouragement you shower on your team for everyone\'s growth are truly valuable. Really thankful to you for pushing us to do better while ensuring we have the necessary tools to proceed.\n' +
+        'All the best and wish you many more successful years ahead!'
+    },
+    {
+      name: 'Rajat Gupta',
+      imgpath: '',
+      msg: 'Congratulations on your 15 years at Microsoft Pankaj! This is a huge milestone, and I\'m sure that there are even bigger milestones for you to accomplish here. Hoping to get in touch and work along with you whenever I strike my chance..' +
+        '\n'
+    },
+    {
+      name: 'Sachin Kumar',
+      imgpath: '',
+      msg: 'Hi Pankaj Sir,\n' +
+      'Congratulation on completing 15 years at Microsoft. You are person with great technical skills and and I always enjoyed working with you. \n' +
+      'Wish you many more adventures and successes in the upcoming years and hope that I will get the chance to work with you again in the future.!'
+    },
+    {
+      name: 'Akshita Arora',
+      imgpath: 'https://media1.giphy.com/media/l3c5zU52Yoe5fMEBq/giphy-downsized.gif?cid=00340317w499t3mcykea34uhqou6cbi4by0ydd2rep0j74rj&rid=giphy-downsized.gif',
+      msg: 'Hey Pankaj,\n' +
+        '\n' +
+        'Congratulations on completing 15 years at Microsoft 🥳. This is a huge achievement! I am grateful to have the opportunity to work with you. Though I have only met you virtually, you have been an inspiration to me. Your relaxed and calm persona, ability to think clearly and come up with solutions, even in the toughest situations is what I admire the most. Sometimes you seem like a superhuman Pankaj 😂\n' +
+        'Looking forward to learning more from you and wishing you many more successful years ahead  🎉🎉'
+    },
+    {
+      name: 'Ananta Gupta',
+      imgpath: 'https://media2.giphy.com/media/DKnMqdm9i980E/giphy.gif?cid=00340317no59ehr432kj2jpzfa4fzfjfadbarq9t9dgqbbxn&rid=giphy.gif',
+      msg: 'Congratulations on achieving this milestone Pankaj!!\n' +
+        'Though we have had a limited interaction, I\'ve always appreciated your suggestions. Your experience is reflected in the way you approach a problem and deal with it.\n' +
+        'I have also heard lots and lots of praises from the people who work closely with you, and look forward to get an opportunity myself.\n' +
+        'Congratulations on completing 15 years at Microsoft and wishing you many more to come!! '
+    },
+    {
+      name: 'Pranav Raj',
+      imgpath: 'https://media2.giphy.com/media/v12FFFTON0WgE/giphy.gif?cid=00340317voeo69o1yrbp12b5sw7xdfu67ciywgacqvcc9r36&rid=giphy.gif',
+      msg: 'Congratulations pankaj for the milestone. You are the biggest motivation for me. You are a role model to the team. You are a coach and a true leader. The way you mentor us and lead us and enable us is really commendable. You play an essential role in keeping our team motivated. Best of luck for your future endeavors.'
+    },
+    {
+      name: 'Parag Agrawal',
+      imgpath: 'https://media0.giphy.com/media/Cj3Ce7e8h2EKY/giphy.gif?cid=00340317r1dsqszqafs7z4ebrehfi6mekj5o8rd6pzbxnxq6&rid=giphy.gif',
+      msg: 'Congratulations on completing this big milestone and cheers for many more to come !!' +
+           '\n' + 'Its been an amazing experience to work with you. Your attitude and passion are great qualities to learn from. Generally what to do is the easy part of problems, but \how\' to do it is something I get awestruck whenever I discuss with you. Great mentor and guide!\n ' +
+           'Once again wishing you more rewarding and successful years at MS!'
+    },
+    {
+      name: 'Avijit Sharma',
+      imgpath: '',
+      msg: 'Hi Pankaj,' +
+           '\n' + 'Congratulations for this amazing feat. It is fantastic to see the fine balance of enthusiasm, knowledge and clarity you bring to any discussion.\n' +
+           'You are always open for discussions and brainstorming sessions which helps the team grow.\n' +
+           'Party Pending\n' +
+           '-Avijit'
+    },
+    {
+      name: 'Ankit Raj Garg',
+      imgpath: 'https://media4.giphy.com/media/W2cGKoIfeJPVDZWnRA/giphy-downsized.gif?cid=00340317mvfranm2bdc20ywi6sb1nv63tzptlt7iywt8z0ys&rid=giphy-downsized.gif',
+      msg: 'Heartiest Congratulations Pankaj on completing 15 years @Microsoft. I have been really lucky to have you as a Manager, Friend, Mentor and Guide. There is so much to learn from you every single day.' +
+        '\n' +
+        'The way you remain calm and handle situation is remarkable. The way you take care of your team, peers and show respect to everyone is infectious. You really set the "Expectation from Managers" bar really high. I still remember the call which you and me had for 1.5 hours and you calm me down when I met with accident. Thanks for always being a support for me and team.' +
+        '\n' +
+        'It\'s been pleasure to be part of your journey @Microsoft for 2 times.  😇' +
+        '\n' +
+        'Congrats again for your Milestone and wish you many more.  🙂'
+    },
+    {
+      name: 'Sai Manoj Kumar Yadlapati',
+      imgpath: 'https://s3.amazonaws.com/kb-stock-photos-cache/achievement/UJm4iGr3rdnUwpPQ/medium/236316829.jpg',
+      msg: 'Hi Pankaj, ' +
+        '\n' +
+        'Congrats on completing 15 years at Microsoft. You are an awesome mentor and senior. I was very lucky to work with you. It is always good to brainstorm any thoughts with you. You are very passionate, open to diverse set of ideas and humble in nature.' +
+        '\n' +
+        'You have always been an inspiration Pankaj!\n' +
+        'Wish you energize us for many more years to come!!  😊'
+    },
+    {
+      name: 'Soumitra Banerjee',
+      imgpath: '',
+      msg: 'Hello Pankaj Sir,\n' +
+      'It\'s been quite sometime we have not worked in the same team, but the bond that you kind of share with me as a friend, philosopher and guide is an asset to me. Pankaj is a true mentor who can not only guide or help you, rather he is more like an architect who can shape you for good. Be it Microsoft of somewhere else, Pankaj has been a goto person for any tough decision making and guidance when i am looking for. '
+      + '\n' +
+      'I  wish pankaj sir a big congratulations for completing this big milestone in his career and wish him all the best for years to come. \n ' +
+      'Thanks\n' +
+      'Soumitra'
+    },
+    {
+      name: 'Rahul Burman',
+      imgpath: '',
+      msg: 'Hi Pankaj' +
+        '\n' +
+    'Congratulations for completing 15 years at Microsoft. You are a great mentor and I always felt comfortable discussing anything with you. I have worked closely with you in short patches but learnt a lot from you. Your energy and passion is inspiring and the way you motivate people is amazing.  '
+    },
+    {
+      name: 'Sakshi',
+      imgpath: 'https://media1.giphy.com/media/m6OomwWCojfS8/giphy.gif?cid=00340317zcfa98mo6jrt0xy2jsqgz2a9n8gy3ro9pphop8jx&rid=giphy.gif',
+      msg: 'Congratulations Pankaj on reaching this amazing milestone here at Microsoft! It\'s truly inspiring 🙂'
+    },
+    {
+      name: 'Prafulla Sharma',
+      imgpath: 'https://media0.giphy.com/media/3oz9ZE2Oo9zRC/giphy.gif?cid=00340317rnw0m00kkrf335fm6ah7o3iyyg2oeuwgw633dkyd&rid=giphy.gif',
+      msg: 'Congratulations for amazing 15 years at Microsoft. Wishing you many more great years ahead ! 🥳 '
+    },
+    {
+      name: 'Logesh Gopal',
+      imgpath: '',
+      msg: 'Hi Pankaj, \n' +
+        '\n' +
+        'Congratulations on Completing a great milestone.' +
+        '\n' +
+        'wishing you success ahead :) ' 
+    },
+    {
+      name: 'Nilesh Awate',
+      imgpath: '',
+      msg: 'Hearty Congratulations Pankaj! \n' +
+        '\n' +
+        'I relish all the technical discussions that I had with you. Your passion and energy to learn and solve technical problems are commendable. Our all technical discussions were great learning opportunities for me.' +
+        '\n' +
+        'I hope will have more technical discussion/interaction with you in the near future' +
+        '\n' +
+        '~Nilesh'
     }
   ];
 
